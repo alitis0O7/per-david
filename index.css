@@ -23,3 +23,6 @@ button:hover{
     border-width: 3px;
     font-size: x-large;
 }
+a{
+    color: white;
+}
