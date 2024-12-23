@@ -1,7 +1,17 @@
 <html>
   <link rel="stylesheet" href="index.css">
   <body>
-    
-    <button>nigga get trolled</button>
+    <button id="playButton">Scusami mi puoi cliccare</button>
+    <audio id="audioPlayer" src="flashbanggg.mp3"></audio>
+
+    <script>
+        // JavaScript to play audio
+        const playButton = document.getElementById('playButton');
+        const audioPlayer = document.getElementById('audioPlayer');
+
+        playButton.addEventListener('click', () => {
+            audioPlayer.play();
+        });
+    </script>
   </body>
 </html>
